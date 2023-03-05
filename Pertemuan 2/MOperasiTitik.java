@@ -20,5 +20,4 @@ public class MOperasiTitik{
 		o.refleksiY(t); 
 		System.out.println("Titik: ("+t.getAbsis()+","+t.getOrdinat()+")");
 	}
-
 }
