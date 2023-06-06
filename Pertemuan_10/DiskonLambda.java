@@ -29,3 +29,12 @@ public class DiskonLambda {
         System.out.println("Diskon Biasa: " + diskonBiasa.hitungDiskon(25000));
     }
 }
+
+/* Pada implementasi diskon lebaran, (harga) -> harga - (harga * 0.4) adalah ekspresi lambda 
+* yang menerima argumen harga dan mengembalikan hasil dari pengurangan diskon 40% dari harga.
+* Pada implementasi diskon biasa, (harga) -> { return harga - (harga * 0.1); } adalah ekspresi 
+* lambda yang juga menerima argumen harga, tetapi memiliki blok pernyataan yang lebih kompleks. 
+* Blok pernyataan ini digunakan untuk menghitung diskon 10% dari harga dan mengembalikan hasilnya.
+* Perbedaan antara keduanya terletak pada cara penulisannya. DiskonLebaran menggunakan ekspresi 
+* lambda tunggal tanpa blok pernyataan, sedangkan DiskonBiasa menggunakan ekspresi lambda dengan blok pernyataan.
+*/
